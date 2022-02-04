@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="704e77bb-945b-4bb9-ba9d-186ed8f85a16" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="23BUSceIkC7rfTzXe6Dn0wUudsS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images/popup" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Azis\Desktop\portfolio\ZoooV\src\images\popup" />
+      <recent name="C:\Users\Azis\Desktop\portfolio\ZoooV\src\images\footer" />
+      <recent name="C:\Users\Azis\Desktop\portfolio\ZoooV\src\js" />
+      <recent name="C:\Users\Azis\Desktop\portfolio\ZoooV\src\images\take" />
+      <recent name="C:\Users\Azis\Desktop\portfolio\ZoooV\src\images\love" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="704e77bb-945b-4bb9-ba9d-186ed8f85a16" name="Default Changelist" comment="" />
+      <created>1641206979043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641206979043</updated>
+      <workItem from="1641206991390" duration="7728000" />
+      <workItem from="1641226727657" duration="11727000" />
+      <workItem from="1641241557933" duration="2435000" />
+      <workItem from="1641285758614" duration="24000" />
+      <workItem from="1641285791968" duration="8698000" />
+      <workItem from="1641373663056" duration="687000" />
+      <workItem from="1641374433004" duration="74000" />
+      <workItem from="1641374560502" duration="3000" />
+      <workItem from="1641374597266" duration="60000" />
+      <workItem from="1641374676826" duration="333000" />
+      <workItem from="1641375046754" duration="91000" />
+      <workItem from="1641375153361" duration="55000" />
+      <workItem from="1641375219248" duration="2315000" />
+      <workItem from="1641377572757" duration="60000" />
+      <workItem from="1641377698144" duration="1651000" />
+      <workItem from="1641382783758" duration="4000" />
+      <workItem from="1641382832467" duration="4084000" />
+      <workItem from="1641470116110" duration="1316000" />
+      <workItem from="1643976431597" duration="184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

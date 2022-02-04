@@ -1,0 +1,68 @@
+.FAQ{
+  padding-bottom: 180px;
+  &__row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &__left{
+    width: 40%;
+    display: flex;
+    align-self: flex-start;
+    &-title{
+      font-family: Oswald,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 46px;
+      line-height: 130%;
+      letter-spacing: 0.02em;
+      color: #000000;
+    }
+  }
+  &__right{
+    width: 60%;
+  &-box{
+    border-bottom: 1px solid grey;
+    &_title{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 140%;
+      color: #000000;
+      margin-right: 25px;
+      padding-bottom: 12px;
+    }
+    &_subtitle{
+      display: none;
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 140%;
+      color: #434242;
+    }
+
+      &_close{
+      width: 3px;
+      height: 25px;
+      background-color: red;
+      position: relative;
+      top: 25px;
+      left: 710px;
+        cursor: pointer;
+      &::before{
+        content: '';
+        position: absolute;
+        width: 3px;
+        height: 25px;
+        background-color: red;
+        transform: rotate(90deg);
+      }
+    }
+    &_close.active{
+      background-color: transparent;
+    }
+  }
+  }
+}

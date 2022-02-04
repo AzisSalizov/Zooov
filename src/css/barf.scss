@@ -1,0 +1,96 @@
+.barf{
+  padding: 180px 0;
+  &__row{
+    display: flex;
+    padding-bottom: 80px;
+  }
+  &__col{
+    &-title{
+      padding-top: 50px;
+      font-family: Oswald,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 46px;
+      line-height: 130%;
+      letter-spacing: 0.02em;
+      color: #000000;
+    }
+    &-desc{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 140%;
+      color: #434242;
+      padding: 32px 0 24px;
+    }
+    &-subtitle{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 130%;
+      color: #000000;
+      padding-bottom: 16px;
+    }
+    &-list{
+      display: flex;
+      flex-direction: column;
+      row-gap: 25px;
+      margin: 0 0 0 20px;
+      &_item{
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
+        color: #434242;
+        &::marker{
+          color: #961914;
+        }
+      }
+    }
+  }
+  &__eat{
+    padding: 32px 80px;
+    background: #EAD1D0;
+    display: flex;
+    justify-content: space-between;
+    &-left{
+      &_title{
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 200%;
+        text-transform: uppercase;
+        color: #000000;
+        padding-bottom: 16px;
+      }
+      &_list,&_list-sec{
+        list-style-type: none;
+        &-item,&-sec_item{
+          display: flex;
+          column-gap: 20px;
+          align-items: center;
+          font-family: Montserrat,sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 250%;
+          color: #434242;
+        }
+      }
+      &_content{
+        display: flex;
+        column-gap: 72px;
+      }
+    }
+    &-right{
+      &_content{
+        display: flex;
+        column-gap: 72px;
+      }
+    }
+  }
+}

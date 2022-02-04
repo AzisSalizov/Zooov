@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+//font-family: 'Montserrat', sans-serif;
+//font-family: 'Oswald', sans-serif;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@import "overlay";
+@import "btn";
+@import "first-screen";
+@import "barf";
+@import "rations";
+@import "whatZooov";
+@import "love";
+@import "take";
+@import "FAQ";
+@import "footer";

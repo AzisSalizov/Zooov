@@ -1,0 +1,115 @@
+.rations{
+  &__box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 56px;
+  }
+  &__left{
+    width: 35%;
+    &-title{
+      font-family: Oswald,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 46px;
+      line-height: 130%;
+      letter-spacing: 0.02em;
+      color: #000000;
+      position: relative;
+      &::before{
+        content: url("../images/rations/Ellipse 6.png");
+        position: absolute;
+        top: -8px;
+        left: 170px;
+        transform: rotate(0.12deg);
+      }
+    }
+  }
+  &__right{
+    width: 65%;
+    &-desc{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 140%;
+      color: #000000;
+    }
+  }
+  &__product{
+    display: flex;
+    width: 100%;
+    column-gap: 26px;
+    padding-bottom: 80px;
+    &-box{
+      &_img{
+        max-width: 100%;
+      }
+      &_title{
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 130%;
+        color: #000000;
+        padding-top: 45px;
+      }
+      &_subtitle{
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 130%;
+        color: #9F9E9D;
+        padding: 4px 0 16px;
+      }
+      &_desc{
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        color: #434242;
+        padding: 11px 0 24px;
+      }
+      &_btn{
+        width: 160px;
+        height: 48px;
+        background-color: transparent;
+        color: red;
+        border: 1px solid #961914;
+        border-radius: 8px;
+      }
+    }
+  }
+  &__payment{
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 121px 54px 50px;
+    background: #EAD1D0;
+    width: 100%;
+    &-left{
+      width: 70%;
+    }
+    &-right{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &-btn{
+      width: 171px;
+      height: 48px;
+      background: #961914;
+      border-radius: 8px;
+    }
+    &-title{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 140%;
+      letter-spacing: 0.02em;
+      color: #000000;
+    }
+  }
+}
